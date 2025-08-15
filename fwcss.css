@@ -185,10 +185,6 @@ nav ul li a:hover {
     padding: 15px 10px;
   }
 
-  #main {
-    padding: 15px 10px;
-  }
-
   .logo-cta-container {
     flex-direction: column;
   }
@@ -245,18 +241,16 @@ nav ul li a:hover {
 }
 #main {
     flex: 1; 
-    padding: 20px;
     box-sizing: border-box;
     width: 100%;
 }
 
 
 .button-container {
-    display: flex;
+    display: grid;
     gap: 20px;
-    justify-content: space-between;
-    margin-top: 20px;
     width: 100%;
+
 }
 
 .custom-button {
@@ -286,4 +280,49 @@ nav ul li a:hover {
 .custom-button:first-child:hover {
     background: linear-gradient(135deg, #e64a19, #f57c00);
 }
+.testimonials-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
 
+.testimonials-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: center;
+}
+
+.testimonial-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ff5722;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+    line-height: 1.6;
+}
+
+.testimonial h4 {
+    margin-top: 20px;
+    color: #333;
+}
