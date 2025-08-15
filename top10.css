@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #eef6f3;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  padding: 40px 30px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.exercise-list {
+  padding-left: 20px;
+}
+
+.exercise-item {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 25px;
+}
+
+.exercise-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.exercise-item h2 {
+  color: #1b5e20;
+  margin-bottom: 15px;
+}
+
+.exercise-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(46, 125, 50, 0.15);
+}

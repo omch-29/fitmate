@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Plans</title>
+    <link rel="stylesheet" href="membership.css">
+</head>
+<body>
+
+    <header>
+        <h1>Our Membership Plans</h1>
+        <p>Join now and get exclusive benefits, discounts, and personalized guidance!</p>
+    </header>
+
+    <section class="membership-container">
+        <!-- Plan 1 -->
+        <div class="plan">
+            <img src="membership-basic.jpg" alt="Basic Plan">
+            <h2>Basic Plan</h2>
+            <p class="price">₹499 / month</p>
+            <p class="discount">Save 10% today!</p>
+            <ul>
+                <li>Access to all beginner workouts</li>
+                <li>Weekly diet tips</li>
+                <li>Email support</li>
+            </ul>
+            <button onclick="joinPlan('Basic Plan')">Join Now</button>
+        </div>
+
+        <!-- Plan 2 -->
+        <div class="plan popular">
+            <img src="membership-pro.jpg" alt="Pro Plan">
+            <h2>Pro Plan</h2>
+            <p class="price">₹999 / month</p>
+            <p class="discount">Save 20% today!</p>
+            <ul>
+                <li>Everything in Basic Plan</li>
+                <li>Personalized workout plan</li>
+                <li>One-on-one coaching</li>
+                <li>Monthly progress tracking</li>
+            </ul>
+            <button onclick="joinPlan('Pro Plan')">Join Now</button>
+        </div>
+
+        <!-- Plan 3 -->
+        <div class="plan">
+            <img src="membership-premium.jpg" alt="Premium Plan">
+            <h2>Premium Plan</h2>
+            <p class="price">₹1,499 / month</p>
+            <p class="discount">Save 30% today!</p>
+            <ul>
+                <li>Everything in Pro Plan</li>
+                <li>Personal nutritionist</li>
+                <li>24/7 support</li>
+                <li>Exclusive member events</li>
+            </ul>
+            <button onclick="joinPlan('Premium Plan')">Join Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Fitness Pro | Disclaimer: All plans are for general wellness purposes only.</p>
+    </footer>
+
+    <script src="membership.js"></script>
+</body>
+</html>

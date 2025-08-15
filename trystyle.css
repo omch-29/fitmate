@@ -1,0 +1,9 @@
+h1{
+    color:red
+}
+#myid{
+    color:blue;
+}
+button:hover{
+    text-decoration: underline;
+}
