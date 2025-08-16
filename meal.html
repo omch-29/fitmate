@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,6 +31,55 @@
         </form>
 
         <div id="mealSuggestions" class="meal-output"></div>
+    </div>
+
+    <script src="meal.js"></script>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Meal Suggestions</title>
+    <link rel="stylesheet" href="meal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="meal-container">
+        <h1>🍽️ Your Personalized Meal Plan</h1>
+        
+        <form id="mealForm">
+            <div class="input-group">
+                <label for="diet">Diet Preference:</label>
+                <select id="diet" name="diet" required>
+                    <option value="" disabled selected>Select diet</option>
+                    <option value="veg">Vegetarian</option>
+                    <option value="nonveg">Non-Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="keto">Keto</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="mealsPerDay">Meals per Day:</label>
+                <select id="mealsPerDay" name="mealsPerDay" required>
+                    <option value="3">3 Meals</option>
+                    <option value="4">4 Meals</option>
+                    <option value="5">5 Meals</option>
+                </select>
+            </div>
+
+            <button type="button" id="getMealsBtn">Get My Meals</button>
+        </form>
+
+        <div id="mealSuggestions" class="meal-output">
+            <div class="empty-state">
+                <i class="fas fa-utensils"></i>
+                <p>Select your preferences and get a meal plan tailored for you!</p>
+            </div>
+        </div>
     </div>
 
     <script src="meal.js"></script>
