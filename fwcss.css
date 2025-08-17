@@ -9,17 +9,44 @@ body {
     background-color: #f4f4f4;
     position: relative; 
     width: 100%;
+    margin-left: 270px;
+  transition: margin-left 0.3s ease;
+}
+#main.expanded {
+  margin-left: 0;
 }
 
 #sidebar {
   width: 250px;
   background: linear-gradient(180deg, #ff5722, #e64a19);
-    color: white;
+  color: white;
   padding: 20px;
   height: 100vh;
    border-radius: 0 15px 15px 0;
     box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
 }
+#sidebar.closed {
+  transform: translateX(-100%);
+}
+#toggle-btn {
+  position: fixed;
+  top: 0.5px;
+  left: 15px;
+  z-index: 1000;
+  background: #ff5722;
+  /*color: white;*/
+   color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -325,4 +352,19 @@ nav ul li a:hover {
 .testimonial h4 {
     margin-top: 20px;
     color: #333;
+}
+.cont{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s ease box-shadow 0.3s ease;
+    margin-left: 10px;
+}
+.cont:hover{
+   background-color: #218838;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
