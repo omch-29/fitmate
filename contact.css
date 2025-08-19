@@ -42,11 +42,9 @@ body {
   border-radius: 8px;
   text-align: center;
   border: 1px solid #ddd;
-  transition: transform 0.2s ease;
 }
 
 .info-box:hover {
-  transform: translateY(-5px);
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
