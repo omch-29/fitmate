@@ -36,7 +36,7 @@ body {
 }
 
 .info-box {
-  flex: 1 1 calc(33% - 20px);
+  flex: 1;
   background: #fafafa;
   padding: 20px;
   border-radius: 8px;
