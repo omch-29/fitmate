@@ -5,4 +5,3 @@ Fitmate is a web-based fitness suggestion platform designed to help users achiev
 It is built as a showcase project with clean UI, responsive design, and interactive features.
 
 ---
-..
