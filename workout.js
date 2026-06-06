@@ -66,3 +66,4 @@ document.getElementById("workoutForm").addEventListener("submit", function(e) {
 
     document.getElementById("result").classList.remove("hidden");
 });
+//.js
