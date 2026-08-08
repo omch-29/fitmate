@@ -68,4 +68,3 @@ document.getElementById("workoutForm").addEventListener("submit", function(e) {
 });
 
 
-//workout.js
